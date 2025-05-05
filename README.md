@@ -24,12 +24,12 @@ git clone https://github.com/LaMonaLisa34/Mr.Skully-Hangman-Jeux-du-Pendu.git
 ## Aperçu du projet 
 
 ### Page d'accueil
-![Homepage](assets/images_projet_git/homepage.png)
+![Homepage](assets/images_projet_git/homepage.PNG)
 
 ### Sélection du mode de difficulté 
-![Mode](assets/images_projet_git/modejeux.png)
+![Mode](assets/images_projet_git/modejeux.PNG)
 
 ### Page de jeux
-![Jeux](assets/images_projet_git/jeux.png)
+![Jeux](assets/images_projet_git/jeux.PNG)
 ![Jeux](assets/images_projet_git/jeux_mobile.jpg)
 
