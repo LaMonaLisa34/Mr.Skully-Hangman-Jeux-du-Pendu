@@ -1,0 +1,29 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+  
+  #container-alphabet {
+      position: absolute;
+      display: flex;
+      flex-wrap: wrap; 
+      gap: 10px;
+      width: 150vw;
+      height: 350px;
+      max-width: 750px;
+      top: 1200px;
+      justify-content: center; 
+      align-items: center;
+      
+  }
+    #alphabet {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+    }
+  
+    #alphabet button {
+      flex: 1 1 8%; 
+      min-width: 30px;
+    }
+  }
+  

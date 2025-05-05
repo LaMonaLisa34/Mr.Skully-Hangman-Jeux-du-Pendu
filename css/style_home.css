@@ -1,0 +1,145 @@
+body {
+    font-family: "Amatic SC", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    overflow: hidden;
+    background-color: #f9f3e3;
+}
+
+.container {
+    position: relative; 
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: sepia(0.2) brightness(0.9) contrast(1.1);
+    z-index: 1;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+}
+
+h1 {
+    font-size: 10vw;
+    font-weight: 700;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #333;
+    position: relative;
+}
+
+h1::after {
+    right: -3vw;
+    top: 0;
+}
+
+.playhome {
+    border-radius: 30px;
+    width: 150px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    font-family: "Courier New", monospace;
+    border: 2px solid #444;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.playhome::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 110%;
+    height: 110%;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.3s ease;
+}
+
+.playhome:hover {
+    background-color: #444;
+    transform: scale(1.05) rotate(1deg);
+}
+
+.playhome:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+a {
+    text-decoration: none;
+}
+
+#tete {
+    width: 500px; 
+    position: absolute;
+    bottom: -10px; 
+    right: -550px; 
+    z-index: 3; 
+    transform: translate(50%, 50%); 
+}
+
+#tetehaut {
+    width: 500px;
+    position: absolute;
+    top: -150px;   
+    left: -250px;  
+    z-index: 3;
+    transform: translate(0, 0); 
+}
+
+#tete {
+    position: relative;
+    width: 200px;
+    height: 200px; 
+    margin: 0 auto;
+}
+
+#tete:hover {
+    position: relative;
+    width: 200px; 
+    height: 200px;
+    margin: 0 auto;
+}
+
+.œil {
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    opacity: 70%;
+}
+
+.œil-gauche {
+    top: 0px;
+    left: 0px;
+}
+
+.œil-droit {
+    top: 0px;
+    left: 0px;
+}
